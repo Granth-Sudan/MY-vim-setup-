@@ -9,8 +9,6 @@ set cursorline
 set mouse=a
 "set that sperator
 set laststatus=2 
-"escape inset without <esc>
-nmap  jh <esc>
 "sourcing .vimrc to configure
 nmap <up>s :source .vimrc
 "disabling keys in normal mode
