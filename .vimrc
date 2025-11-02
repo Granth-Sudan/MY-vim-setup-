@@ -21,3 +21,6 @@ noremap <up>t : hi Normal guibg=NONE ctermbg=NONE
 noremap <up>d :set bg=dark
 "for pyton idn 
 ab prnt print("
+"deleting a whole phrase with ctrl+backspace 
+noremap! <C-BS> <C-w>
+noremap! <C-h> <C-w>
